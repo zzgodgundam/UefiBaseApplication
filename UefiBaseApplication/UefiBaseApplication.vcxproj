@@ -124,6 +124,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);MDEPKG_NDEBUG</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.;MdePkg\Include;MdePkg\Include\Ia32;IntelFrameworkPkg\Include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -142,6 +143,7 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions);MDEPKG_NDEBUG</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>.;MdePkg\Include;MdePkg\Include\X64;IntelFrameworkPkg\Include</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
