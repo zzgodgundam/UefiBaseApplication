@@ -622,6 +622,8 @@
     <ClCompile Include="MdePkg\Library\BaseMemoryLib\SetMem64Wrapper.c" />
     <ClCompile Include="MdePkg\Library\BaseMemoryLib\SetMemWrapper.c" />
     <ClCompile Include="MdePkg\Library\BaseMemoryLib\ZeroMemWrapper.c" />
+    <ClCompile Include="MdePkg\Library\BasePrintLib\PrintLib.c" />
+    <ClCompile Include="MdePkg\Library\BasePrintLib\PrintLibInternal.c" />
     <ClCompile Include="src\AutoGen.c" />
     <ClCompile Include="src\Main.c" />
   </ItemGroup>
@@ -1140,6 +1142,7 @@
     <ClInclude Include="MdePkg\Include\X64\ProcessorBind.h" />
     <ClInclude Include="MdePkg\Library\BaseLib\BaseLibInternals.h" />
     <ClInclude Include="MdePkg\Library\BaseMemoryLib\MemLibInternals.h" />
+    <ClInclude Include="MdePkg\Library\BasePrintLib\PrintLibInternal.h" />
   </ItemGroup>
   <ItemGroup>
     <MASM Include="MdePkg\Library\BaseLib\Ia32\DivU64x64Remainder.asm">
