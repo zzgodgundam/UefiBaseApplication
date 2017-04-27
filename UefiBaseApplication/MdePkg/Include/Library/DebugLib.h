@@ -268,9 +268,9 @@ DebugPrintLevelEnabled (
         DebugPrint (PrintLevel, ##__VA_ARGS__);      \
       }                                              \
     } while (FALSE)
-  #define _DEBUG(Expression)   _DEBUG_PRINT Expression
+  #define __DEBUG(Expression)  _DEBUG_PRINT Expression
 #else
-#define _DEBUG(Expression)   DebugPrint Expression
+#define __DEBUG(Expression)  DebugPrint Expression
 #endif
 
 /**  
@@ -315,7 +315,7 @@ DebugPrintLevelEnabled (
   #define DEBUG(Expression)        \
     do {                           \
       if (DebugPrintEnabled ()) {  \
-        _DEBUG (Expression);       \
+        __DEBUG (Expression);      \
       }                            \
     } while (FALSE)
 #else

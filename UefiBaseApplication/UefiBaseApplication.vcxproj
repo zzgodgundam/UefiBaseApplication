@@ -153,6 +153,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\CompareMemWrapper.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\CopyMem.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\CopyMemWrapper.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\IsZeroBufferWrapper.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\MemLibGeneric.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\MemLibGuid.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\ScanMem16Wrapper.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\ScanMem32Wrapper.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\ScanMem64Wrapper.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\ScanMem8Wrapper.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\SetMem.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\SetMem16Wrapper.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\SetMem32Wrapper.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\SetMem64Wrapper.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\SetMemWrapper.c" />
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\ZeroMemWrapper.c" />
     <ClCompile Include="src\Main.c" />
   </ItemGroup>
   <ItemGroup>
@@ -667,6 +683,7 @@
     <ClInclude Include="MdePkg\Include\Uefi\UefiPxe.h" />
     <ClInclude Include="MdePkg\Include\Uefi\UefiSpec.h" />
     <ClInclude Include="MdePkg\Include\X64\ProcessorBind.h" />
+    <ClInclude Include="MdePkg\Library\BaseMemoryLib\MemLibInternals.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

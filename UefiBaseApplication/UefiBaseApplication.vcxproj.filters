@@ -18,6 +18,54 @@
     <ClCompile Include="src\Main.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\CompareMemWrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\CopyMem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\CopyMemWrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\IsZeroBufferWrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\MemLibGeneric.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\MemLibGuid.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\ScanMem8Wrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\ScanMem16Wrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\ScanMem32Wrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\ScanMem64Wrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\SetMem.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\SetMem16Wrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\SetMem32Wrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\SetMem64Wrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\SetMemWrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseMemoryLib\ZeroMemWrapper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntelFrameworkPkg\Include\Framework\BootScript.h">
@@ -1551,6 +1599,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="MdePkg\Include\Uefi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Library\BaseMemoryLib\MemLibInternals.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
