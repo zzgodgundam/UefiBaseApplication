@@ -153,6 +153,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="MdePkg\Library\BaseDebugLibNull\DebugLib.c" />
     <ClCompile Include="MdePkg\Library\BaseMemoryLib\CompareMemWrapper.c" />
     <ClCompile Include="MdePkg\Library\BaseMemoryLib\CopyMem.c" />
     <ClCompile Include="MdePkg\Library\BaseMemoryLib\CopyMemWrapper.c" />
