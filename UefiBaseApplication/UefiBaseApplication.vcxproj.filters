@@ -19,4 +19,1539 @@
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="IntelFrameworkPkg\Include\Framework\BootScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Framework\DxeCis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Framework\FirmwareVolumeHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Framework\FirmwareVolumeImageFormat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Framework\FrameworkInternalFormRepresentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Framework\Hob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Framework\PeiCis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Framework\SmmCis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Framework\StatusCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Guid\BlockIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Guid\Capsule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Guid\DataHubRecords.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Guid\FirmwareFileSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Guid\SmmCommunicate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Guid\SmramMemoryReserve.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Ppi\BootScriptExecuter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Ppi\FindFv.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Ppi\FvLoadFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Ppi\PciCfg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Ppi\ReadOnlyVariable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Ppi\S3Resume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Ppi\SectionExtraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Ppi\Security.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Ppi\Smbus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\AcpiS3Save.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\AcpiSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\BootScriptSave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\CpuIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\DataHub.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\FirmwareVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\FrameworkFirmwareVolumeBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\FrameworkFormBrowser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\FrameworkFormCallback.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\FrameworkHii.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\FrameworkMpService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\Legacy8259.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\LegacyBios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\LegacyBiosPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\LegacyInterrupt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\LegacyRegion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SectionExtraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SmmAccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SmmBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SmmControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SmmCpuIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SmmCpuSaveState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SmmGpiDispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SmmIchnDispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SmmPeriodicTimerDispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SmmPowerButtonDispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SmmStandbyButtonDispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SmmSwDispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SmmSxDispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\Protocol\SmmUsbDispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\FrameworkDxe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\FrameworkPei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IntelFrameworkPkg\Include\FrameworkSmm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\AArch64\ProcessorBind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Arm\ProcessorBind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ebc\ProcessorBind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\Acpi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\Apriori.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\AprioriFileName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\CapsuleReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\Cper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\DebugImageInfoTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\DxeServices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\EventGroup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\EventLegacyBios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\FileInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\FileSystemInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\FileSystemVolumeLabelInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\FirmwareContentsSigned.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\FirmwareFileSystem2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\FirmwareFileSystem3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\FmpCapsule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\GlobalVariable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\Gpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\GraphicsInfoHob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\HardwareErrorVariable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\HiiFormMapMethodGuid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\HiiKeyBoardLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\HiiPlatformSetupFormset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\HobList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\ImageAuthentication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\MdePkgTokenSpace.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\MemoryAllocationHob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\MemoryAttributesTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\MemoryOverwriteControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\Mps.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\PcAnsi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\PropertiesTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\SalSystemTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\SmBios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\StatusCodeDataTypeId.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\SystemResourceTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\VectorHandoffTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Guid\WinCertificate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ia32\ProcessorBind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Acpi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Acpi10.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Acpi20.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Acpi30.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Acpi40.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Acpi50.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Acpi51.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Acpi60.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Acpi61.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\AcpiAml.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\AlertStandardFormatTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Atapi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Bluetooth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Bmp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\DebugPort2Table.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\DebugPortTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Dhcp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\DmaRemappingReportingTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\ElTorito.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Emmc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\HighPrecisionEventTimerTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Hsti.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Http11.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Ipmi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\IpmiNetFnApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\IpmiNetFnBridge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\IpmiNetFnChassis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\IpmiNetFnFirmware.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\IpmiNetFnGroupExtension.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\IpmiNetFnSensorEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\IpmiNetFnStorage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\IpmiNetFnTransport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\IScsiBootFirmwareTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\LegacyBiosMpTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\LowPowerIdleTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Mbr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\MemoryMappedConfigurationSpaceAccessTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\MemoryOverwriteRequestControlLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Nvme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Pal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Pci.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Pci22.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Pci23.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Pci30.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\PciCodeId.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\PciExpress21.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\PciExpress30.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\PciExpress31.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\PeImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Sal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Scsi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Sd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\SdramSpd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\SdramSpdDdr3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\SdramSpdDdr4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\SdramSpdLpDdr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\SerialPortConsoleRedirectionTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\SmBios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\SmBus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\TcgPhysicalPresence.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\TcgStorageCore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\TcgStorageOpal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\TcpaAcpi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Tpm2Acpi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Tpm12.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Tpm20.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\TpmPtp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\TpmTis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\UefiTcgPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\Usb.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\WatchdogActionTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\WatchdogResourceTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\WindowsSmmSecurityMitigationTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\IndustryStandard\WindowsUxCapsule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ipf\ProcessorBind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\BaseLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\BaseMemoryLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\CacheMaintenanceLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\CpuLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\DebugLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\DebugPrintErrorLevelLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\DevicePathLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\DxeCoreEntryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\DxeServicesLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\DxeServicesTableLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\ExtendedSalLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\ExtractGuidedSectionLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\FileHandleLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\HobLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\HstiLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\IoLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\MemoryAllocationLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\OrderedCollectionLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PalLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PcdLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PciCf8Lib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PciExpressLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PciLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PciSegmentLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PeCoffExtraActionLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PeCoffGetEntryPointLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PeCoffLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PeiCoreEntryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PeimEntryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PeiServicesLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PeiServicesTablePointerLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PerformanceLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PostCodeLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\PrintLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\ReportStatusCodeLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\ResourcePublicationLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\RngLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\S3BootScriptLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\S3IoLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\S3PciLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\S3SmbusLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\S3StallLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\SalLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\SerialPortLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\SmbusLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\SmmLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\SmmMemLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\SmmPeriodicSmiLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\SmmServicesTableLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\SynchronizationLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\TimerLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\UefiApplicationEntryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\UefiBootServicesTableLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\UefiDecompressLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\UefiDriverEntryPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\UefiLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\UefiRuntimeLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\UefiRuntimeServicesTableLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\UefiScsiLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Library\UefiUsbLib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Pi\PiBootMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Pi\PiDependency.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Pi\PiDxeCis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Pi\PiFirmwareFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Pi\PiFirmwareVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Pi\PiHob.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Pi\PiI2c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Pi\PiMultiPhase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Pi\PiPeiCis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Pi\PiS3BootScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Pi\PiSmmCis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Pi\PiSmmCommunicationAcpiTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Pi\PiStatusCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\BlockIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\BlockIo2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\BootInRecoveryMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\Capsule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\CpuIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\Decompress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\DeviceRecoveryModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\DxeIpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\EndOfPeiPhase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\FirmwareVolume.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\FirmwareVolumeInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\FirmwareVolumeInfo2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\Graphics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\GuidedSectionExtraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\I2cMaster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\IsaHc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\LoadFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\LoadImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\MasterBootMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\MemoryDiscovered.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\MpServices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\Pcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\PcdInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\PciCfg2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\PiPcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\PiPcdInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\ReadOnlyVariable2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\RecoveryModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\ReportStatusCodeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\Reset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\Reset2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\S3Resume2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\SecPlatformInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\SecPlatformInformation2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\Security2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\Smbus2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\Stall.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\StatusCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\SuperIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\TemporaryRamDone.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\TemporaryRamSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Ppi\VectorHandoffInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\AbsolutePointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\AcpiSystemDescriptionTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\AcpiTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\AdapterInformation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Arp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\AtaPassThru.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\AuthenticationInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Bds.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Bis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\BlockIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\BlockIo2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\BlockIoCrypto.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\BluetoothConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\BluetoothHc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\BluetoothIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\BootManagerPolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\BusSpecificDriverOverride.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Capsule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\ComponentName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\ComponentName2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Cpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\CpuIo2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DebugPort.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DebugSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Decompress.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DeferredImageLoad.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DeviceIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DevicePath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DevicePathFromText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DevicePathToText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DevicePathUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Dhcp4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Dhcp6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DiskInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DiskIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DiskIo2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Dns4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Dns6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DriverBinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DriverConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DriverConfiguration2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DriverDiagnostics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DriverDiagnostics2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DriverFamilyOverride.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DriverHealth.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DriverSupportedEfiVersion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\DxeSmmReadyToLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Eap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\EapConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\EapManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\EapManagement2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Ebc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\EdidActive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\EdidDiscovered.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\EdidOverride.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\EraseBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\ExtendedSalBootService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\ExtendedSalServiceClasses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\FirmwareManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\FirmwareVolume2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\FirmwareVolumeBlock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\FormBrowser2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Ftp4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\GraphicsOutput.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\GuidedSectionExtraction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Hash.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Hash2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\HiiConfigAccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\HiiConfigKeyword.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\HiiConfigRouting.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\HiiDatabase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\HiiFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\HiiImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\HiiImageDecoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\HiiImageEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\HiiPackageList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\HiiString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Http.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\HttpUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\I2cBusConfigurationManagement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\I2cEnumerate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\I2cHost.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\I2cIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\I2cMaster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\IdeControllerInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\IncompatiblePciDeviceSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Ip4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Ip4Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Ip4Config2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Ip6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Ip6Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\IpSec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\IpSecConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\IsaHc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\IScsiInitiatorName.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Kms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\LegacyRegion2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\LoadedImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\LoadFile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\LoadFile2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\ManagedNetwork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\McaInitPmi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Metronome.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\MonotonicCounter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\MpService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Mtftp4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Mtftp6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\NetworkInterfaceIdentifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\NvmExpressPassthru.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Pcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PcdInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PciEnumerationComplete.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PciHostBridgeResourceAllocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PciHotPlugInit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PciHotPlugRequest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PciIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PciOverride.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PciPlatform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PciRootBridgeIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PiPcd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PiPcdInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Pkcs7Verify.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PlatformDriverOverride.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PlatformToDriverConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PxeBaseCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\PxeBaseCodeCallBack.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\RamDisk.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\RealTimeClock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\RegularExpressionProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\ReportStatusCodeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Reset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Rest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Rng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Runtime.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\S3SaveState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\S3SmmSaveState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\ScsiIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\ScsiPassThru.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\ScsiPassThruExt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SdMmcPassThru.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Security.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Security2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SecurityPolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SerialIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\ServiceBinding.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Shell.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\ShellDynamicCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\ShellParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SimpleFileSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SimpleNetwork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SimplePointer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SimpleTextIn.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SimpleTextInEx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SimpleTextOut.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmartCardEdge.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmartCardReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Smbios.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmbusHc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmAccess2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmBase2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmCommunication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmConfiguration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmControl2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmCpu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmCpuIo2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmEndOfDxe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmGpiDispatch2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmIoTrapDispatch2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmPciRootBridgeIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmPeriodicTimerDispatch2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmPowerButtonDispatch2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmReadyToLock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmReportStatusCodeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmStandbyButtonDispatch2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmStatusCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmSwDispatch2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmSxDispatch2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SmmUsbDispatch2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\StatusCode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\StorageSecurityCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SuperIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\SuperIoControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Supplicant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\TapeIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Tcg2Protocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\TcgService.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Tcp4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Tcp6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Timer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Timestamp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\TrEEProtocol.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Udp4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Udp6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\UgaDraw.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\UgaIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\UnicodeCollation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Usb2HostController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\UsbFunctionIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\UsbHostController.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\UsbIo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\UserCredential.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\UserCredential2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\UserManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\Variable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\VariableWrite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\VlanConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\WatchdogTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\WiFi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Protocol\WiFi2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Uefi\UefiAcpiDataTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Uefi\UefiBaseType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Uefi\UefiGpt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Uefi\UefiInternalFormRepresentation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Uefi\UefiMultiPhase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Uefi\UefiPxe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Uefi\UefiSpec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\X64\ProcessorBind.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\PiDxe.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\PiPei.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\PiSmm.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MdePkg\Include\Uefi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
