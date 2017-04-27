@@ -228,6 +228,18 @@
     <ClCompile Include="MdePkg\Library\BaseLib\Math64.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\X64\CpuBreakpoint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\X64\Non-existing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\X64\ReadMsr64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\X64\WriteMsr64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntelFrameworkPkg\Include\Framework\BootScript.h">
@@ -1772,5 +1784,238 @@
     <ClInclude Include="Include\AutoGen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="MdePkg\Library\BaseLib\X64\CpuId.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\CpuIdEx.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\CpuPause.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\DisableCache.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\DisableInterrupts.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\DisablePaging64.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\EnableCache.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\EnableDisableInterrupts.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\EnableInterrupts.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\FlushCacheLine.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\FxRestore.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\FxSave.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\Invd.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\LongJump.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\Monitor.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\Mwait.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\RdRand.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadCr0.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadCr2.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadCr3.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadCr4.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadCs.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadDr0.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadDr1.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadDr2.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadDr3.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadDr4.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadDr5.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadDr6.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadDr7.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadDs.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadEflags.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadEs.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadFs.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadGdtr.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadGs.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadIdtr.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadLdtr.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadMm0.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadMm1.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadMm2.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadMm3.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadMm4.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadMm5.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadMm6.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadMm7.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadPmc.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadSs.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadTr.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\ReadTsc.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\SetJump.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\SwitchStack.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\Thunk16.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\Wbinvd.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteCr0.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteCr2.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteCr3.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteCr4.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteDr0.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteDr1.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteDr2.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteDr3.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteDr4.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteDr5.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteDr6.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteDr7.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteGdtr.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteIdtr.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteLdtr.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteMm0.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteMm1.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteMm2.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteMm3.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteMm4.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteMm5.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteMm6.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\X64\WriteMm7.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
   </ItemGroup>
 </Project>
