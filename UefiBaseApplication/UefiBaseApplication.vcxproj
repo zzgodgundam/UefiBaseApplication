@@ -179,6 +179,10 @@
     <ClCompile Include="MdePkg\Library\BaseLib\LRotU32.c" />
     <ClCompile Include="MdePkg\Library\BaseLib\LRotU64.c" />
     <ClCompile Include="MdePkg\Library\BaseLib\LShiftU64.c" />
+    <ClCompile Include="MdePkg\Library\BaseLib\Math64.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="MdePkg\Library\BaseLib\ModU64x32.c" />
     <ClCompile Include="MdePkg\Library\BaseLib\MultS64x64.c" />
     <ClCompile Include="MdePkg\Library\BaseLib\MultU64x32.c" />
