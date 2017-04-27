@@ -240,6 +240,282 @@
     <ClCompile Include="MdePkg\Library\BaseLib\X64\WriteMsr64.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ARShiftU64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\CpuBreakpoint.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\CpuId.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\CpuIdEx.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\CpuPause.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\DisableCache.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\DisableInterrupts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\DisablePaging32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\DivS64x64Remainder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\DivU64x32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\DivU64x32Remainder.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\EnableCache.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\EnableDisableInterrupts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\EnableInterrupts.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\EnablePaging32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\FlushCacheLine.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\FxRestore.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\FxSave.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\InternalSwitchStack.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\Invd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\LongJump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\LRotU64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\LShiftU64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ModU64x32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\Monitor.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\MultU64x32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\MultU64x64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\Mwait.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\Non-existing.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadCr0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadCr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadCr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadCr4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadCs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadDr0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadDr1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadDr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadDr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadDr4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadDr5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadDr6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadDr7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadDs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadEflags.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadEs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadFs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadGdtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadGs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadIdtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadLdtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadMm0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadMm1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadMm2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadMm3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadMm4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadMm5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadMm6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadMm7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadMsr64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadPmc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadSs.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadTr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\ReadTsc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\RRotU64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\RShiftU64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\SetJump.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\SwapBytes64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\Wbinvd.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteCr0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteCr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteCr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteCr4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteDr0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteDr1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteDr2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteDr3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteDr4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteDr5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteDr6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteDr7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteGdtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteIdtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteLdtr.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteMm0.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteMm1.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteMm2.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteMm3.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteMm4.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteMm5.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteMm6.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteMm7.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseLib\Ia32\WriteMsr64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntelFrameworkPkg\Include\Framework\BootScript.h">
@@ -2015,6 +2291,18 @@
       <Filter>Source Files</Filter>
     </MASM>
     <MASM Include="MdePkg\Library\BaseLib\X64\WriteMm7.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\Ia32\DivU64x64Remainder.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\Ia32\EnablePaging64.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\Ia32\RdRand.asm">
+      <Filter>Source Files</Filter>
+    </MASM>
+    <MASM Include="MdePkg\Library\BaseLib\Ia32\Thunk16.asm">
       <Filter>Source Files</Filter>
     </MASM>
   </ItemGroup>
