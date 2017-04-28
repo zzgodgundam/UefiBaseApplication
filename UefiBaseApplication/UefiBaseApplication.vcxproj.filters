@@ -528,6 +528,9 @@
     <ClCompile Include="src\Library\DebugLibConOut\DebugLib.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\UefiMain.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntelFrameworkPkg\Include\Framework\BootScript.h">

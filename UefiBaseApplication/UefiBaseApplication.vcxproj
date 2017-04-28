@@ -637,6 +637,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="src\Main.c" />
+    <ClCompile Include="src\UefiMain.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Include\AutoGen.h" />
