@@ -522,6 +522,12 @@
     <ClCompile Include="MdePkg\Library\BasePrintLib\PrintLibInternal.c">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseDebugPrintErrorLevelLib\BaseDebugPrintErrorLevelLib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Library\DebugLibConOut\DebugLib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntelFrameworkPkg\Include\Framework\BootScript.h">

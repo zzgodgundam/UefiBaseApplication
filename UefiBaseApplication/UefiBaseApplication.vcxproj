@@ -166,7 +166,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MdePkg\Library\BaseDebugLibNull\DebugLib.c" />
+    <ClCompile Include="MdePkg\Library\BaseDebugLibNull\DebugLib.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="MdePkg\Library\BaseDebugPrintErrorLevelLib\BaseDebugPrintErrorLevelLib.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="MdePkg\Library\BaseLib\ARShiftU64.c" />
     <ClCompile Include="MdePkg\Library\BaseLib\BitField.c" />
     <ClCompile Include="MdePkg\Library\BaseLib\CheckSum.c" />
@@ -625,6 +632,10 @@
     <ClCompile Include="MdePkg\Library\BasePrintLib\PrintLib.c" />
     <ClCompile Include="MdePkg\Library\BasePrintLib\PrintLibInternal.c" />
     <ClCompile Include="src\AutoGen.c" />
+    <ClCompile Include="src\Library\DebugLibConOut\DebugLib.c">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="src\Main.c" />
   </ItemGroup>
   <ItemGroup>
